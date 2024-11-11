@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="og:site_name" content="Battly Launcher">
     <meta name="publisher" content="TECNO BROS">
-    <link rel="icon" href="/assets/img/logo_500.png">
+    <link rel="icon" href="/assets/img/logo_500.webp">
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>En Mantenimiento - Battly Launcher</title>
@@ -18,7 +18,6 @@
     <style>
         @font-face {
             font-family: 'Seguiemj';
-            /* Nombre personalizado de la fuente */
             src: url('/assets/fonts/seguiemj.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
@@ -61,6 +60,39 @@
         .hero .subtitle {
             color: #fff;
         }
+
+        .textt {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            html {
+                overflow-y: scroll;
+            }
+
+            .hero .title {
+                font-size: 2.5rem !important;
+            }
+
+            .subtitle {
+                font-size: 1rem !important;
+            }
+
+            .hero {
+                width: 90%;
+                padding: 0px;
+            }
+
+            .hero-body {
+                padding: 2rem 0.5rem;
+            }
+
+            .textt {
+                width: 90%;
+            }
+
+        }
     </style>
 </head>
 
@@ -75,7 +107,7 @@
                     Battly está trabajando en una nueva página para ti 😄
                 </h1>
                 <br>
-                <div style="width: 70%; margin: 0 auto;">
+                <div class="textt">
                     <p class="subtitle is-size-4">La misión de Battly siempre ha sido ser el mejor Launcher del mercado,
                         y
                         por eso se ofrecen actualizaciones constantes en sus servicios para hacerlo lo mejor
